@@ -7,6 +7,24 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.js"></script>
+  <style>
+    body {
+      background: #f9f9f9;
+    }
+    .main-container {
+      max-width: 450px; /* Limita el ancho en móviles */
+      margin: 0 auto;
+      padding: 0 20px;
+      padding-bottom: 100px;
+    }
+    .ui.grid > .column {
+      padding: 0.5em !important;
+    }
+    .ui.fluid.card img {
+      height: 120px;
+      object-fit: contain;
+    }
+  </style>
 </head>
 <body>
 
@@ -17,80 +35,79 @@
     </div>
   </div>
 
-  <!-- ESPACIO PARA EL HEADER -->
+  <!-- ESPACIO PARA HEADER -->
   <div style="height: 60px;"></div>
 
-  <!-- CONTENIDO EN GRID -->
-  <div class="ui container" style="padding-bottom: 20px;">
-    <div class="ui two column doubling grid">
+  <!-- CONTENIDO -->
+  <div class="main-container">
+    <div class="ui two column grid">
       <div class="column">
         <div class="ui fluid card">
           <div class="image">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://img.icons8.com/ios-filled/100/plus-math.png" alt="Opción A">
           </div>
-          <div class="content">
-            <a class="header center aligned">Opción A</a>
+          <div class="content center aligned">
+            <a class="header">Opción A</a>
           </div>
         </div>
       </div>
-  
+
       <div class="column">
         <div class="ui fluid card">
           <div class="image">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://img.icons8.com/ios-filled/100/lightning-bolt.png" alt="Opción B">
           </div>
-          <div class="content">
-            <a class="header center aligned">Opción B</a>
+          <div class="content center aligned">
+            <a class="header">Opción B</a>
           </div>
         </div>
       </div>
-  
+
       <div class="column">
         <div class="ui fluid card">
           <div class="image">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://img.icons8.com/ios-filled/100/right.png" alt="Opción C">
           </div>
-          <div class="content">
-            <a class="header center aligned">Opción C</a>
+          <div class="content center aligned">
+            <a class="header">Opción C</a>
           </div>
         </div>
       </div>
-  
+
       <div class="column">
         <div class="ui fluid card">
           <div class="image">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://img.icons8.com/ios-filled/100/crescent-moon.png" alt="Opción D">
           </div>
-          <div class="content">
-            <a class="header center aligned">Opción D</a>
+          <div class="content center aligned">
+            <a class="header">Opción D</a>
           </div>
         </div>
       </div>
-  
+
       <div class="column">
         <div class="ui fluid card">
           <div class="image">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://img.icons8.com/ios-filled/100/no-entry.png" alt="Opción E">
           </div>
-          <div class="content">
-            <a class="header center aligned">Opción E</a>
+          <div class="content center aligned">
+            <a class="header">Opción E</a>
           </div>
         </div>
       </div>
-  
+
       <div class="column">
         <div class="ui fluid card">
           <div class="image">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://img.icons8.com/ios-filled/100/right.png" alt="Opción F">
           </div>
-          <div class="content">
-            <a class="header center aligned">Opción F</a>
+          <div class="content center aligned">
+            <a class="header">Opción F</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
 
   <!-- FOOTER FIJO AZUL -->
   <div class="ui inverted blue bottom fixed menu">
